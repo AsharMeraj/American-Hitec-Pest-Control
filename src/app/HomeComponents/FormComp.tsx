@@ -99,7 +99,7 @@ const FormComp = () => {
                         <IoMdMailOpen color="white" size={20} />
                     </span>
                     <span>
-                        <h2 className="text-[--Primary] font-bold">Mailing</h2>
+                        <h2 className="text-[--Primary] font-bold">Mailing Address</h2>
                         <p className="text-sm">2096 Church Creek Drive Charleston, SC 29414</p>
                     </span>
                 </div>
