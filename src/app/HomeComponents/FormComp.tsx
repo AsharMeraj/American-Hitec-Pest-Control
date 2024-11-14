@@ -43,7 +43,7 @@ const FormComp = () => {
                     Let&#39;s Talk
                 </h2>
                 <p className="leading-relaxed mb-3 md:mb-5 text-gray-600 text-lg">
-                    Have questions or need assistance? Reach out to us, we're here to help!
+                    Have questions or need assistance? Reach out to us, we&apos;re here to help!
                 </p>
                 <div className="relative mb-2 md:mb-5">
                     <input

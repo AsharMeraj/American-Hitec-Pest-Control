@@ -12,7 +12,7 @@ const ContactSection: React.FC = () => {
                             Contact Us
                         </h2>
                         <p className="text-white  text-xl lg:text-2xl font-bold leading-relaxed md:mt-2 drop-shadow-md">
-                            We're here to help. Feel free to reach out!
+                            We&apos;re here to help. Feel free to reach out!
                         </p>
                     </span>
                     <main className="flex md:hidden items-center select-none order-first md:order-last mt-4">
