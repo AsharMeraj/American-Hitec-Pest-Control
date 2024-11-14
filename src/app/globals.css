@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root{
-  --Primary: rgb(57, 153, 24);
+  --Primary: #399918;
 }
 
 html, body{
