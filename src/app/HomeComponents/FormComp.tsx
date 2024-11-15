@@ -86,38 +86,38 @@ const FormComp = () => {
 
             <div className="grid grid-cols-1 min-[1078px]:grid-cols-2 gap-y-8 gap-x-4 w-full md:w-1/2 md:mt-[10rem] min-[1078px]:mt-[11rem] h-fit">
                 <div className="flex items-center gap-x-4">
-                    <span className="p-4 rounded-md bg-[rgba(57,153,24,0.9)]">
+                    <span className="p-4 rounded-md bg-[var(--Primary)]">
                         <FaBuildingUser color="white" size={20} />
                     </span>
                     <span>
-                        <h2 className="text-[--Primary] font-bold">Address</h2>
+                        <h2 className="text-[--Secondary] font-bold">Address</h2>
                         <p className="text-sm">1994 Nitsa Street, Johns Island, South Carolina 29455</p>
                     </span>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <span className="p-4 rounded-md bg-[rgba(57,153,24,0.9)]">
+                    <span className="p-4 rounded-md bg-[var(--Primary)]">
                         <IoMdMailOpen color="white" size={20} />
                     </span>
                     <span>
-                        <h2 className="text-[--Primary] font-bold">Mailing Address</h2>
+                        <h2 className="text-[--Secondary] font-bold">Mailing Address</h2>
                         <p className="text-sm">2096 Church Creek Drive Charleston, SC 29414</p>
                     </span>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <span className="p-4 rounded-md bg-[rgba(57,153,24,0.9)]">
+                    <span className="p-4 rounded-md bg-[var(--Primary)]">
                         <FaPhoneAlt color="white" size={20} />
                     </span>
                     <span>
-                        <h2 className="text-[--Primary] font-bold">Direct Contact</h2>
+                        <h2 className="text-[--Secondary] font-bold">Direct Contact</h2>
                         <p className="text-sm">843-224-8976</p>
                     </span>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <span className="p-4 rounded-md bg-[rgba(57,153,24,0.9)]">
+                    <span className="p-4 rounded-md bg-[var(--Primary)]">
                         <MdAlternateEmail color="white" size={20} />
                     </span>
                     <span>
-                        <h2 className="text-[--Primary] font-semibold text-lg">Email</h2>
+                        <h2 className="text-[--Secondary] font-bold">Email</h2>
                         <p className="text-sm">americanhitec@yahoo.com</p>
                     </span>
                 </div>

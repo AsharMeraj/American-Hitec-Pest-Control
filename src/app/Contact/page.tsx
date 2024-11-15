@@ -1,6 +1,6 @@
-
 import React from "react";
 import FormComp from "../HomeComponents/FormComp";
+import { FaBug } from "react-icons/fa";
 
 const ContactSection: React.FC = () => {
     return (
@@ -17,7 +17,7 @@ const ContactSection: React.FC = () => {
                     </span>
                     <main className="flex md:hidden items-center select-none order-first md:order-last mt-4">
                         <div className="bg-white p-10 rounded-full w-fit h-fit">
-                            <img src="/bug2.png" className="w-12  opacity-90" />
+                        <FaBug size={45} color='var(--Primary)'/>
                         </div>
                     </main>
                 </div>

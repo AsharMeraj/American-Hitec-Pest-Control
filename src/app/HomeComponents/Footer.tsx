@@ -29,13 +29,13 @@ const Footer = () => {
                         <div className='mt-2'>
                             <h2 className='text-white'>Head Office:</h2>
                             <span className="flex items-center  gap-1">
-                                <h2 className="text-white font-bold text-sm">843-224-8976</h2>
+                                <h2 className="text-white font-semibold text-sm">843-224-8976</h2>
                             </span>
                         </div>
                         <div className='mt-2'>
-                            <h2 className='text-white '>Henry Grimes &#40;Owner&#41;:</h2>
+                            <h2 className='text-white '>Henry "Bubba" Grimes &#40;Owner&#41;:</h2>
                             <span className="flex items-center  gap-1">
-                                <h2 className="text-white font-bold text-sm">843-270-0202</h2>
+                                <h2 className="text-white font-semibold text-sm">843-270-0202</h2>
                             </span>
                         </div>
                     </div>

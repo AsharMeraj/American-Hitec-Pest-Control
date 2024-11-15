@@ -1,6 +1,7 @@
 import React from 'react'
 import { LightButton } from './Button'
 import Link from 'next/link'
+import { FaBug } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
         </main>
         <main className='flex md:hidden justify-center items-center select-none order-first md:order-last'>
           <div className='bg-white p-12 rounded-full w-fit h-fit'>
-            <img src="/bug2.png" className='w-[4rem] md:w-[6rem] lg:w-[8rem] opacity-80' />
+          <FaBug size={45} color='var(--Primary)'/>
           </div>
         </main>
       </main>

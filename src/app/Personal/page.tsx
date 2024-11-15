@@ -1,5 +1,6 @@
 import React from 'react'
 import PersonalCard from '../HomeComponents/PersonalCard'
+import { FaBug } from 'react-icons/fa'
 
 const page = () => {
   return (
@@ -13,7 +14,7 @@ const page = () => {
           </span>
           <main className='flex md:hidden items-center select-none order-first md:order-last'>
             <div className='bg-white p-10 rounded-full w-fit h-fit'>
-              <img src="/bug2.png" className='w-[3rem] opacity-90' />
+              <FaBug size={45} color='var(--Primary)' />
             </div>
           </main>
         </div>
@@ -23,13 +24,17 @@ const page = () => {
       <main className='px-[2rem] py-[6rem] '>
         <main className='max-w-[70rem] m-auto flex flex-col gap-20'>
 
-          <PersonalCard name="Henry Grimes" para='In the early 90s, Henry Grimes founded American Hi Tec and shared his pest control expertise with his son, Bubba, who now plays a key role and will continue the family legacy in the business.' img='/PersonalImg2.png' position='Owner' />
+          <PersonalCard name="Henry Grimes" para='In the early 90s, Henry Grimes founded American Hi Tec and shared his pest control expertise with his son, Bubba, who now plays a key role and will continue the family legacy in the business.' img='/TeamImg.jpg' position='Founder' />
 
-          <PersonalCard name={`HENRY "BUBBA" GRIMES`} para="Henry Grimes&#39; son, Bubba, is our lead technician and your direct point of contact. He&#39;s here to answer any questions and ensure you feel informed and confident throughout the process." img='/PersonalImg5.png' position='Lead Technician' />
-          
-          <PersonalCard name="Deborah Grimes" para='Deborah Grimes, wife of owner Henry Grimes, plays a key role in managing operations to ensure the smooth running of the business.' img='/PersonalImg3.png' position='Co-Manager' />
+          <PersonalCard name={`HENRY "BUBBA" GRIMES`} para="Henry Grimes&#39; son, Bubba, is the owner and your direct point of contact. He&#39;s here to answer any questions and ensure you feel informed and confident throughout the process." img='/TeamImg111.jpg' position='Owner' />
 
-          <PersonalCard name="Stephanie Byrd-Grimes" para="Stephanie, wife of Henry 'Bubba' Grimes Jr., plays a key role in managing appointment scheduling and bookkeeping for the company." img='/PersonalImg4.png' position='Office Staff' />
+          <PersonalCard name="Stephanie Byrd-Grimes" para="Stephanie, wife of Henry 'Bubba' Grimes Jr., plays a key role in managing appointment scheduling and bookkeeping for the company." img='/TeamImg222.jpg' position='Manager / Book Keeper' />
+
+          <PersonalCard name="Daniel Israel" para='Daniel Israel, our lead technician, brings years of expertise to every job, ensuring the highest quality pest control services with attention to detail and precision.' img='/TeamImg3.JFIF' position='Lead Technician' />
+
+          <PersonalCard name="Deborah Grimes" para='Deborah Grimes, wife of founder Henry Grimes, plays a key role in managing operations to ensure the smooth running of the business.' img='/TeamImg4444.jpg' position='Office Staff' />
+
+
 
 
 

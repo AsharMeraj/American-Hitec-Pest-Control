@@ -3,6 +3,7 @@ import React from 'react'
 import ServicesCard from '../HomeComponents/ServicesCard'
 import { DarkButton } from '../HomeComponents/Button'
 import Link from 'next/link'
+import { FaBug } from 'react-icons/fa'
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
           </span>
           <main className='flex md:hidden items-center select-none order-first md:order-last'>
             <div className='bg-white p-10 rounded-full w-fit h-fit'>
-              <img src="/bug2.png" className='w-[3rem] opacity-90' />
+              <FaBug size={45} color='var(--Primary)'/>
             </div>
           </main>
         </div>
@@ -29,49 +30,61 @@ const page = () => {
             name='Flying Pest'
             para='Eliminate flying pests quickly with our expert treatments for a disturbance-free home.'
             img='/item6.jpg'
-            icon='/flyIcon.png' />
+            icon='/flyBlue.png' />
 
           <ServicesCard
             name='Cockroaches'
             para='From ants to cockroaches, we handle all small pests with ease. Not sure what it is? We&#39;ve got it covered!'
             img='/item1.jpg'
-            icon='/cockroachIcon.png' />
+            icon='/cockroachBlue.png' />
 
           <ServicesCard
             name='Spiders'
             para='Our team quickly removes spiders, leaving your home completely web-free and comfortable.'
             img='/item2.jpg'
-            icon='/spiderIcon.png' />
+            icon='/spiderBlue.png' />
 
           <ServicesCard
             name='Ants'
             para='We offer fast, effective ant control, eliminating nests and preventing future infestations.'
             img='/item3.jpg'
-            icon='/AntIcon.png' />
+            icon='/AntBlue.png' />
 
           <ServicesCard
             name='Rodents'
             para='We offer swift rodent removal, sealing entry points and ensuring your home stays rodent-free.'
             img='/item4.jpg'
-            icon='/mouseIcon.png' />
+            icon='/mouseBlue.png' />
 
           <ServicesCard
             name='Termites'
             para='Protect your home with our effective termite treatments that target infestations and prevent future damage.'
             img='/item5.jpg'
-            icon='/termiteIcon.png' />
+            icon='/termiteBlue.png' />
 
           <ServicesCard
             name='Racoons'
             para='Quickly remove raccoons from your property with our reliable, humane pest control services.'
             img='/item7.jpg'
-            icon='/racoonIcon.png' />
+            icon='/racoonBlue.png' />
 
           <ServicesCard
-            name='Bats'
+            name='Mosquitoes'
             para='Bats can be a health risk, let us help you control them quickly to keep your home secure.'
             img='/item8.jpg'
-            icon='/batIcon.png' />
+            icon='/mosquitoBlue.png' />
+
+          <ServicesCard
+            name='Moisture Control'
+            para='Effectively tackle moisture issues with our vapor barrier solutions for a healthier home.'
+            img='/item9.jpg'
+            icon='/waterBlue.png' />
+
+          <ServicesCard
+            name='Exclusion'
+            para='Seal your crawl space with our expert encapsulation services for a cleaner, healthier home'
+            img='/item10.jpg'
+            icon='/repairBlue.png' />
         </main>
 
         {/* Video Section */}
@@ -81,8 +94,7 @@ const page = () => {
 
 
         {/* Stamp Section */}
-        <section className=" bg-white md:flex md:space-x-12 w-full my-[2rem] md:my-[4rem] items-center">
-          {/* Image and Badge */}
+        <section className=" bg-white md:flex md:space-x-12 w-full mt-[2rem] md:mt-[4rem] items-center">
           <div className="relative w-full md:w-fit flex justify-center md:justify-start items-center">
             <Image
               src="/Stamp.png"
@@ -95,14 +107,12 @@ const page = () => {
               Eco-Friendly
             </span>
           </div>
-
-          {/* Content Section */}
           <main className='flex justify-center items-center h-fit'>
             <div className="mt-4 md:mt-0 md:w-fit h-fit">
-              <h1 className="text-3xl font-bold text-gray-800 mb-4">
+              <h1 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-4">
                 Sustainable Pest Control Solutions
               </h1>
-              <p className="text-lg text-black/80 mb-6">
+              <p className=" lg:text-lg text-black/80 mb-6">
                 Your home can be an ideal spot for many pests, from ants to rodents. American Hi Tec Pest Control offers guaranteed, eco-friendly solutions to eliminate even the toughest infestations. Our expert team provides safe, effective treatments, so you can enjoy a pest-free, comfortable home.
               </p>
               <button>
