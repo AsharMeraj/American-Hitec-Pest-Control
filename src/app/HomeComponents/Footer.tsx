@@ -33,7 +33,7 @@ const Footer = () => {
                             </span>
                         </div>
                         <div className='mt-2'>
-                            <h2 className='text-white '>Henry "Bubba" Grimes &#40;Owner&#41;:</h2>
+                            <h2 className='text-white '>Henry &#34;Bubba&#34; Grimes &#40;Owner&#41;:</h2>
                             <span className="flex items-center  gap-1">
                                 <h2 className="text-white font-semibold text-sm">843-270-0202</h2>
                             </span>
