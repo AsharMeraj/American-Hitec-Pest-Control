@@ -16,7 +16,7 @@ const page = () => {
           </span>
           <main className='flex md:hidden items-center select-none order-first md:order-last'>
             <div className='bg-white p-10 rounded-full w-fit h-fit'>
-              <FaBug size={45} color='var(--Primary)'/>
+              <FaBug size={45} color='var(--Primary)' />
             </div>
           </main>
         </div>
@@ -27,64 +27,66 @@ const page = () => {
         {/* Cards Section */}
         <main className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 '>
           <ServicesCard
-            name='Flying Pest'
-            para='Eliminate flying pests quickly with our expert treatments for a disturbance-free home.'
-            img='/item6.jpg'
-            icon='/flyBlue.png' />
-
+            name='Spiders'
+            para='Our team quickly removes spiders, leaving your home completely web-free and comfortable.'
+            img='/item2.jpg'
+            icon='/spiderRed.png' />
+      
           <ServicesCard
             name='Cockroaches'
             para='From ants to cockroaches, we handle all small pests with ease. Not sure what it is? We&#39;ve got it covered!'
             img='/item1.jpg'
-            icon='/cockroachBlue.png' />
+            icon='/cockroachRed.png' />
 
           <ServicesCard
-            name='Spiders'
-            para='Our team quickly removes spiders, leaving your home completely web-free and comfortable.'
-            img='/item2.jpg'
-            icon='/spiderBlue.png' />
+            name='Flying Pest'
+            para='Eliminate flying pests quickly with our expert treatments for a disturbance-free home.'
+            img='/item6.jpg'
+            icon='/flyRed.png' />
 
           <ServicesCard
             name='Ants'
             para='We offer fast, effective ant control, eliminating nests and preventing future infestations.'
             img='/item3.jpg'
-            icon='/AntBlue.png' />
+            icon='/AntRed.png' />
 
           <ServicesCard
             name='Rodents'
             para='We offer swift rodent removal, sealing entry points and ensuring your home stays rodent-free.'
             img='/item4.jpg'
-            icon='/mouseBlue.png' />
+            icon='/mouseRed.png' />
 
           <ServicesCard
             name='Termites'
             para='Protect your home with our effective termite treatments that target infestations and prevent future damage.'
             img='/item5.jpg'
-            icon='/termiteBlue.png' />
+            icon='/termiteRed.png' />
 
           <ServicesCard
-            name='Racoons'
+            name='Raccoons'
             para='Quickly remove raccoons from your property with our reliable, humane pest control services.'
             img='/item7.jpg'
-            icon='/racoonBlue.png' />
+            icon='/racoonRed.png' />
 
           <ServicesCard
             name='Mosquitoes'
-            para='Bats can be a health risk, let us help you control them quickly to keep your home secure.'
+            para='Keep your home safe with our quick and effective mosquito control solution'
             img='/item8.jpg'
-            icon='/mosquitoBlue.png' />
+            icon='/mosquitoRed.png' />
 
           <ServicesCard
-            name='Moisture Control'
-            para='Effectively tackle moisture issues with our vapor barrier solutions for a healthier home.'
-            img='/item9.jpg'
-            icon='/waterBlue.png' />
+            name="Encapsulation"
+            para="Protect your home from moisture with expert encapsulation for a safer, more secure space."
+            img="/item9.jpg"
+            icon="/shield2Red.png"
+          />
 
           <ServicesCard
-            name='Exclusion'
-            para='Seal your crawl space with our expert encapsulation services for a cleaner, healthier home'
-            img='/item10.jpg'
-            icon='/repairBlue.png' />
+            name="Exclusion"
+            para="Prevent rodent entry by sealing your home with durable wire barriers for long-lasting protection."
+            img="/item10.jpg"
+            icon="/repairRed.png"
+          />
         </main>
 
         {/* Video Section */}

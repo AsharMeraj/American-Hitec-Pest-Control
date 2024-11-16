@@ -19,7 +19,19 @@ html, body{
   background: linear-gradient(to bottom right, rgb(23, 49, 83, 0.8),rgb(23, 49, 83, 0.6), rgb(23, 49, 83, 0.3),rgb(23, 49, 83, 0.3));
 }
 
-.services::before,
+.services::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/Hero2.jpg');
+  background-size: cover;
+  background-position:  center 25%;
+  z-index: -1;
+  opacity: 0.8;
+}
 .background::before {
   content: "";
   position: absolute;
@@ -27,13 +39,11 @@ html, body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/Hero.jpeg');
+  background-image: url('/Hero2.jpg');
   background-size: cover;
-  background-position: center;
-  transform: scaleX(-1);
+  background-position: center ;
   z-index: -1;
-  opacity: 0.8; /* Slightly more transparent for gradient blending */
-  /* filter: blur(4px); Adds a subtle blur for a soft effect */
+  opacity: 0.8;
 }
 
 
@@ -41,12 +51,6 @@ html, body{
   .background::before{
     background-position: top;
   }
-  /* .background{
-    background:  rgb(191, 2, 4, 0.5);
-  }
-  .services{
-    background:  rgb(191, 2, 4, 0.5);
-  } */
 }
 
 

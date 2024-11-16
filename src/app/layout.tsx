@@ -30,7 +30,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <main>
-          <NextTopLoader color="var(--Primary)" showSpinner={false} speed={600} />
+          <NextTopLoader color="var(--Primary)" showSpinner={false} speed={600} shadow={false}/>
           <Navbar />
           {children}
           <Footer />
