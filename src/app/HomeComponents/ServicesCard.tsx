@@ -17,7 +17,7 @@ const ServicesCard = ({ name, para, img, icon }: PropType) => {
       </main>
       <main className='h-fit'>
         <h2 className='text-2xl font-semibold w-full text-center mt-12 text-[--Primary]'>{name}</h2>
-        <p className='md:text-lg text-center mb-8 mt-1 px-4 md:px-8 text-black/80'>{para}</p>
+        <p className='md:text-base xl:text-lg text-center mb-8 mt-1 px-4 md:px-8 text-black/80'>{para}</p>
       </main>
     </section>
 

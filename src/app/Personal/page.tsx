@@ -6,7 +6,7 @@ const page = () => {
   return (
     <section className=''>
       {/* Hero Section */}
-      <div className='py-[4rem] services px-[2rem]'>
+      <div className='py-16 services px-[2rem]'>
         <div className='max-w-[70rem] gap-4 md:gap-0 m-auto grid grid-cols-1 md:grid-cols-[2fr_1fr]  relative'>
           <span>
             <h2 className='text-3xl md:text-4xl  lg:text-5xl text-white font-bold drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>Our Team</h2>

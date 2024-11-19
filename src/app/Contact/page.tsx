@@ -5,19 +5,15 @@ import { FaBug } from "react-icons/fa";
 const ContactSection: React.FC = () => {
     return (
         <section className="w-full">
-            <div className="py-16 px-[2rem] sm:py-20 services">
-                <div className="max-w-[70rem] gap-4 md:gap-0 m-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] relative">
+            <div className='py-16 services px-[2rem]'>
+                <div className='max-w-[70rem] gap-4 md:gap-0 m-auto grid grid-cols-1 md:grid-cols-[2fr_1fr]  relative'>
                     <span>
-                        <h2 className="text-[1.7rem] sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold drop-shadow-md">
-                            Contact Us
-                        </h2>
-                        <p className="text-white  text-xl lg:text-2xl font-bold leading-relaxed md:mt-2 drop-shadow-md">
-                            We&apos;re here to help. Feel free to reach out!
-                        </p>
+                        <h2 className='text-3xl md:text-4xl  lg:text-5xl text-white font-bold drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>Contact Us</h2>
+                        <p className='text-white text-xl lg:text-2xl font-bold leading-relaxed md:mt-2 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>We&apos;re here to help. Feel free to reach out!</p>
                     </span>
-                    <main className="flex md:hidden items-center select-none order-first md:order-last mt-4">
-                        <div className="bg-white p-10 rounded-full w-fit h-fit">
-                        <FaBug size={45} color='var(--Primary)'/>
+                    <main className='flex md:hidden items-center select-none order-first md:order-last'>
+                        <div className='bg-white p-10 rounded-full w-fit h-fit'>
+                            <FaBug size={45} color='var(--Primary)' />
                         </div>
                     </main>
                 </div>

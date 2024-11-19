@@ -8,10 +8,10 @@ import { FaBug } from 'react-icons/fa'
 const page = () => {
   return (
     <section className=''>
-      <div className=' py-[4rem] services px-[2rem]'>
+      <div className='py-16 services px-[2rem]'>
         <div className='max-w-[70rem] gap-4 md:gap-0 m-auto grid grid-cols-1 md:grid-cols-[2fr_1fr]  relative'>
           <span>
-            <h2 className='text-[1.7rem] sm:text-3xl md:text-4xl  lg:text-5xl text-white font-bold drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>Our Services</h2>
+            <h2 className='text-3xl md:text-4xl  lg:text-5xl text-white font-bold drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>Our Services</h2>
             <p className='text-white text-xl lg:text-2xl font-bold leading-relaxed md:mt-2 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.2)]'>We Can Take Care Of Any Pest Problem</p>
           </span>
           <main className='flex md:hidden items-center select-none order-first md:order-last'>
@@ -31,7 +31,7 @@ const page = () => {
             para='Our team quickly removes spiders, leaving your home completely web-free and comfortable.'
             img='/item2.jpg'
             icon='/spiderRed.png' />
-      
+
           <ServicesCard
             name='Cockroaches'
             para='From ants to cockroaches, we handle all small pests with ease. Not sure what it is? We&#39;ve got it covered!'
@@ -90,13 +90,23 @@ const page = () => {
         </main>
 
         {/* Video Section */}
-        <div className='mt-[4rem] md:my-[6rem]'>
-          <iframe className='w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem]' src="https://www.youtube.com/embed/Ws6BS7ccqjQ?si=4xFpuYij9FjHI2lM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <div className='mt-[4rem] md:my-[6rem] relative'>
+          <h1 className=' font-semibold text-center md:text-start text-2xl xl:text-3xl text-black mb-4'>Sample Termite Treatment</h1>
+          {/* <iframe className='w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem]' src="https://www.youtube.com/embed/Ws6BS7ccqjQ?si=4xFpuYij9FjHI2lM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
+          <video
+            poster='/termiteControlImg.jpg'
+            src="/termiteControl2.mp4"
+            muted
+            loop
+            typeof='video/mp4'
+            controls
+            className='rounded-2xl w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] bg-black'
+          />
         </div>
 
 
         {/* Stamp Section */}
-        <section className=" bg-white md:flex md:space-x-12 w-full mt-[2rem] md:mt-[4rem] items-center">
+        <section className=" bg-white md:flex md:space-x-12 w-full mt-[3rem] md:mt-[4rem] items-center">
           <div className="relative w-full md:w-fit flex justify-center md:justify-start items-center">
             <Image
               src="/Stamp.png"

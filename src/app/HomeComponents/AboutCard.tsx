@@ -14,7 +14,7 @@ const AboutCard = ({Icon, title, para}: PropType) => {
                 <Icon color="var(--Secondary)" size={40} />
                 <h2 className='text-[1.3rem] md:text-2xl font-semibold text-[--Primary]'>{title}</h2>
             </span>
-            <p className='md:text-lg  mt-2 text-black'>{para}</p>
+            <p className='md:text-base xl:text-lg mt-2 text-black'>{para}</p>
         </div>
     )
 }
