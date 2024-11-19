@@ -91,16 +91,14 @@ const page = () => {
 
         {/* Video Section */}
         <div className='mt-[4rem] md:my-[6rem] relative'>
-          <h1 className=' font-semibold text-center md:text-start text-2xl xl:text-3xl text-black mb-4'>Sample Termite Treatment</h1>
-          {/* <iframe className='w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem]' src="https://www.youtube.com/embed/Ws6BS7ccqjQ?si=4xFpuYij9FjHI2lM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
+          <h1 className=' font-semibold text-center md:text-start text-2xl xl:text-3xl text-black mb-4 md:mb-8'>Sample Termite Treatment</h1>
           <video
-            poster='/termiteControlImg.jpg'
-            src="/termiteControl2.mp4"
-            muted
+            src='/termiteControl3.mp4'
+            className='w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] bg-black'
             loop
-            typeof='video/mp4'
+            width='100%'
+            height='100%'
             controls
-            className='rounded-2xl w-full  h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] bg-black'
           />
         </div>
 

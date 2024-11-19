@@ -7,7 +7,7 @@ const Footer = () => {
             <main className="max-w-[70rem] mx-auto mb-6 grid gap-6 grid-cols-1 md:grid-cols-3">
                 {/* Left Section */}
                 <div className="text-left flex flex-col justify-between">
-                    <h2 className="text-white text-lg font-bold">American Hitec Pest Control</h2>
+                    <h2 className="text-white text-lg font-bold">American Hi Tec Pest Control</h2>
                     <p className="text-white">
                         Contact Us for a free inspection and estimate.
                     </p>
@@ -55,7 +55,7 @@ const Footer = () => {
             <main className="w-full py-6  mx-auto border-t border-white/80">
                 <div className="max-w-[70rem] m-auto">
                     <h1 className="text-white font-semibold text-center ">
-                        Copyright &#169; 2012 American Hitec Pest Control. All Rights Reserved
+                        Copyright &#169; 2012 American Hi Tec Pest Control. All Rights Reserved
                     </h1>
                 </div>
             </main>
