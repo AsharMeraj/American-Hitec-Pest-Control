@@ -30,7 +30,7 @@ const page = () => {
 
           <PersonalCard name="Stephanie Byrd-Grimes" para="Stephanie, wife of Henry 'Bubba' Grimes Jr., plays a key role in managing appointment scheduling and bookkeeping for the company." img='/TeamImg3.jpg' position='Manager / Book Keeper' />
 
-          <PersonalCard name="Daniel Israel" para='Daniel Israel, our lead technician, brings years of expertise to every job, ensuring the highest quality pest control services with attention to detail and precision.' img='/TeamImg4.JFIF' position='Lead Technician' />
+          <PersonalCard name="Daniel Israel" para='Daniel Israel, our lead technician, brings years of expertise to every job, ensuring the highest quality pest control services with attention to detail and precision.' img='/TeamImg4.jpg' position='Lead Technician' />
 
           <PersonalCard name="Deborah Grimes" para='Deborah Grimes, wife of founder Henry Grimes, plays a key role in managing operations to ensure the smooth running of the business.' img='/TeamImg5.jpg' position='Office Staff' />
 
