@@ -48,7 +48,7 @@ const page = () => {
             name='Ants'
             para='We offer fast, effective ant control, eliminating nests and preventing future infestations.'
             img='/item3.jpg'
-            icon='/AntRed.png' />
+            icon='/antRed.png' />
 
           <ServicesCard
             name='Rodents'
