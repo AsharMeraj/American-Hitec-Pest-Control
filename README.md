@@ -50,7 +50,7 @@ Here I introduced the people behind the business. Visitors can put faces to name
 - Each team member gets their own profile card with their role, a photo, and a short personal description
 - The page opens with a dedicated hero section that sets the tone before diving into the individual profiles
 
-<img src="/public/assets/OurTeamPage.ong" width="800"/>
+<img src="/public/assets/OurTeamPage.png" width="800"/>
 
 ---
 
