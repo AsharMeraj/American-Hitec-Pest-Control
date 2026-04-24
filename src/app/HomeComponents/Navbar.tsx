@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import { useEffect, useState } from 'react';
 import MobileNavbar from '@/app/HomeComponents/MobileNavbar'
 import NavComponent from './NavComponent';

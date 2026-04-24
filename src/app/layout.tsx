@@ -19,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "American Hitec Pest Control",
+  title: "American Hi Tec Pest Control",
   description: "American Hitec Pest Control offers professional and reliable pest management solutions for residential and commercial spaces. Our team is dedicated to safe and effective pest control, using industry-leading techniques to protect your property from pests. From inspection to treatment, we ensure thorough and lasting results to give you peace of mind. Trust American Hitec for exceptional service and a pest-free environment.",
 };
 

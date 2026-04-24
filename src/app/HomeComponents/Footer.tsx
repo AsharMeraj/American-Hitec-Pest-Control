@@ -1,3 +1,4 @@
+'use client'
 import { Mail, MapPin } from 'lucide-react';
 import React from 'react';
 

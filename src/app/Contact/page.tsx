@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import FormComp from "../HomeComponents/FormComp";
 import { FaBug } from "react-icons/fa";

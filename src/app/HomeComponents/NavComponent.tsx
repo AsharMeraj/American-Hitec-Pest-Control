@@ -1,8 +1,10 @@
+'use client'
 import Link from 'next/link'
 import React, { Dispatch, SetStateAction } from 'react'
 import { DarkButton } from './Button'
 import { Menu } from 'lucide-react'
 import { ImMail4 } from 'react-icons/im'
+import Image from 'next/image'
 
 type PropType = {
     setShowMobileNav: Dispatch<SetStateAction<boolean>>
@@ -14,7 +16,7 @@ const NavComponent = ({ setShowMobileNav }: PropType) => {
         <div id='navbar' className='z-20 '>
             <nav className={`z-50 relative w-full flex justify-center bg-white items-center h-[6rem]`}>
                 <div className='w-[70rem] mx-4 sm:mx-10 flex items-center justify-between'>
-                    <img alt='/' src={'/logo3.png'} className='w-[15rem] min-[820px]:w-[15rem] min-[900px]:w-[18rem] xl:w-[20rem] ' />
+                    <Image height={800} width={800} alt='/' src={'/logo3.png'} className='w-[15rem] min-[820px]:w-[15rem] min-[900px]:w-[18rem] xl:w-[20rem] ' />
                     <div>
                         <div id='namebox' className='hidden md:flex items-center justify-between gap-2 min-[900px]:gap-4 lg:gap-7'>
                             <Link href='/' className='names cursor-pointer text-sm lg:text-base hover:text-[--Secondary] transition-all font-semibold text-black tracking-wide '>

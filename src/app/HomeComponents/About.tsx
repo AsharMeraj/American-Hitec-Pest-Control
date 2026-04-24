@@ -1,3 +1,4 @@
+'use client'
 import { CalendarRange, ContactRound, House, ShieldCheck, ShieldHalf, Target } from 'lucide-react'
 import React from 'react'
 import AboutCard from './AboutCard'

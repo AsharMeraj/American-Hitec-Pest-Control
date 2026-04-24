@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# American Hi Tec Pest Control 🐛
 
-## Getting Started
+A modern, responsive website for a professional pest management company — built to showcase services, introduce the team, and make it easy for clients to reach out.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square&logo=vercel)](https://americanhitecpestcontrol-asharmeraj.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Landing Page](#landing-page)
+- [Services](#services)
+- [Team Details](#team-details)
+- [Contact](#contact)
+- [Tech Stack](#tech-stack)
+- [License](#license)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🏠 Landing Page
 
-To learn more about Next.js, take a look at the following resources:
+The home page is the first thing visitors see, and I wanted it to make a strong impression right away. It opens with a bold hero section that communicates what the company does, followed by an about section and a preview of the core services on offer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- The hero section is designed to grab attention immediately and give visitors a clear sense of who American Hi Tec is
+- A services overview section teases the full range of offerings and nudges visitors to explore further
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="public/assets/LandingPage.png" width="800"/>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🪲 Services
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is the heart of the site. I built out a full services listing that covers everything from common household pests to more specialized treatments — each one displayed with a dedicated card, image, and description so visitors know exactly what they're getting.
+
+- Covers a wide range of pest types including spiders, cockroaches, ants, rodents, termites, raccoons, mosquitoes, and more
+- Features an embedded termite treatment video and a dedicated section on the company's eco-friendly, sustainable approach
+
+<img src="/public/assets/Services.png" width="800"/>
+
+---
+
+## 👥 Team Details
+
+Here I introduced the people behind the business. Visitors can put faces to names and get a feel for who they'd actually be working with — from the founders all the way to the lead technicians.
+
+- Each team member gets their own profile card with their role, a photo, and a short personal description
+- The page opens with a dedicated hero section that sets the tone before diving into the individual profiles
+
+<img src="/public/assets/OurTeamPage.ong" width="800"/>
+
+---
+
+## 📬 Contact
+
+Getting in touch is as straightforward as it gets. This page brings together all the contact details, a live embedded Google Map showing the company's exact location, and a form so potential clients can send inquiries without ever leaving the site.
+
+- An embedded Google Map pinpoints the office at 1994 Nitsa St, Johns Island, SC 29455
+- The contact form lets visitors submit inquiries directly, with toast notifications confirming successful submissions
+
+<img src="/public/assets/Contact.png" width="800"/>
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 15 | React framework with file-based routing |
+| TypeScript | Type safety across the codebase |
+| Tailwind CSS | Utility-first responsive styling |
+| React Toastify | In-app toast notifications |
+| Next Top Loader | Page transition progress bar |
+| Google Maps Embed | Interactive location map |
+| Vercel | Deployment and hosting |
+
+---
+
+<p align="center">Built with care by <strong>Ashar Meraj</strong> ✦ <a href="https://americanhitecpestcontrol-asharmeraj.vercel.app/">Live Site</a></p>
